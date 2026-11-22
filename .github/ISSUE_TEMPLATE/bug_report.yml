@@ -1,0 +1,53 @@
+name: 不具合の報告
+description: 動作がおかしい、表示が崩れるなどの報告
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issueは誰でも閲覧できます。インストールしているアプリの名前・アイコン、再生中の曲、通知の内容が写った画像は、隠してから添付してください。設定のバックアップJSONは添付しないでください。
+  - type: input
+    id: app-version
+    attributes:
+      label: アプリの版
+      description: ダウンロードしたAPKのファイル名か、Androidの設定のアプリ情報（MinimalLauncher）で確認できます。
+      placeholder: 0.1.0-beta.21
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: 端末とAndroidの版
+      placeholder: Pixel 8 / Android 15
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 再現手順
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期待した動作
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 実際の動作
+      description: 画像を添える場合は、個人的な情報を隠してください。
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 確認
+      options:
+        - label: 添付した画像・文章に、個人的なアプリ名・曲・通知・設定JSONが含まれていないことを確認しました
+          required: true
