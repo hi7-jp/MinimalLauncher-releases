@@ -6,7 +6,7 @@ Androidホームランチャーです。大きな時計、選んだアプリ、�
 
 ## ダウンロード
 
-[Releases](https://github.com/hi7-jp/MinimalLauncher-releases/releases) から最新版の `MinimalLauncher-<版>.apk` を取得します。辞書JAR（`kuromoji-ipadic-0.9.0.jar`）は任意です（[アプリ検索の読みと辞書](#アプリ検索の読みと辞書)）。
+[Releases](https://github.com/hi7-jp/MinimalLauncher-releases/releases) から最新版の `MinimalLauncher-<バージョン>.apk` を取得します。辞書JAR（`kuromoji-ipadic-0.9.0.jar`）は任意です（[アプリ検索の読みと辞書](#アプリ検索の読みと辞書)）。
 
 ### 配布物の確認（任意）
 
@@ -60,4 +60,4 @@ MinimalLauncherの右上の設定から「既定のホーム」を選び、Andro
 
 ## 権利表記
 
-使用ライブラリとライセンス文は [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt) と、APK内の `assets/third-party-notices.txt` にあります。辞書の権利表記・利用条件は辞書JAR内の `META-INF/LICENSE.md` と `META-INF/NOTICE.md` にあります。
+使用ライブラリとライセンス文は [THIRD_PARTY_NOTICES.txt](https://github.com/hi7-jp/MinimalLauncher-releases/blob/main/THIRD_PARTY_NOTICES.txt) と、APK内の `assets/third-party-notices.txt` にあります。辞書の権利表記・利用条件は辞書JAR内の `META-INF/LICENSE.md` と `META-INF/NOTICE.md` にあります。
